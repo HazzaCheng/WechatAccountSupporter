@@ -12,15 +12,15 @@ import java.util.Map;
  * Created by Hazza on 2016/8/7.
  */
 public class Adder {
-    private static final String urlSource = "jdbc:mysql://10.10.65.172:3306/wsa?useUnicode=true&characterEncoding=utf-8";
+    private static final String urlSource = "jdbc:mysql://:3306/wsa?useUnicode=true&characterEncoding=utf-8";
     private static final String userSource = "wechat";
     private static final String passSource = "sklcc";
-    private static final String urlDest = "jdbc:mysql://139.196.188.70:3306/wsa?useUnicode=true&characterEncoding=utf-8";
+    private static final String urlDest = "jdbc:mysql://:3306/wsa?useUnicode=true&characterEncoding=utf-8";
     private static final String userDest = "wsa";
     private static final String passDest = "sklcc";
 
-    private final static String appId = "aJ2Vx03fS7j4LdxeSrb5";
-    private final static String appKey = "zgaWRumyOf586J7z7uiH9E2D4";
+    private final static String appId = "";
+    private final static String appKey = "";
     private final static String apiUrl = "http://open.gsdata.cn/api/wx/wxapi/nickname_one";
 
     private void gsdataAdd(String wx_name, String wx_nickname, int group_id) {
